@@ -1,0 +1,13 @@
+git init: crea un repositorio nuevo vacío
+git add readme.md: marca que se añade un cambio para luego comitearlo (subirlo) al repositorio local
+git status -v: nos muestra el estado en el que están los archivos en local (carpeta moviles) comparandolos con lo de arriba.
+Si haces un status antes de hacer un git add se ve que el archivo modificado o añadido tiene un not staged (no preparado). 
+En cambio si lo haces después del add te sale staged que signifia que está preparado para subir. 
+git commit -m "lo que sea": significa que subes al repositorio local algo y entre comillas explica lo que subes.
+git remote add origin: se hace solo una vez, si lo haces más veces te crea el error de que ya existe.
+Este comando significa que añades la rama origin en el repositorio remoto.
+git push -u origin master: Este comando da la orden de subir todos los archivos que tenías añadido en local por medio del commit y estaban preparados para subir a remote.
+git diff: este comando te enseña en la consola todos los cambios que hayas hecho al archivo en local
+git config --global http.sslverify "false": este comando soluciono el error que me daba en clase.
+Lo consegui por un comentario en esta url https://github.com/npm/npm/issues/1484 del usuario DedrickEnc.
+En otra pág. ponía que no era del todo bueno por temas de seguridad, pero la opción segura no funcionaba.

@@ -1,3 +1,4 @@
+cambio para probar en el git
 ## Los smartphones ganan la batalla al ordenador y al teléfono fijo
 ### En 2015 los teléfonos móviles inteligentes se impusieron a los ordenadores como dispositivos para acceder a internet.
 ### El número de fijos por cada 100 personas no es ni la mitad del de móviles.
